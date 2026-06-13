@@ -29,6 +29,8 @@ async function getCarts() {
 export default async function DashboardPage() {
   const usersPromise = getUsers();
   const cartsPromise = getCarts();
+  console.log("FETCH START - Users:", new Date().toISOString());
+  console.log("FETCH START - Carts:", new Date().toISOString());
   const [userData, cartData] = await Promise.all([usersPromise, cartsPromise]);
 
   return (
