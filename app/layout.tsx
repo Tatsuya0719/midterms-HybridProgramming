@@ -20,10 +20,10 @@ export default function RootLayout({
         <aside className="w-64 bg-slate-900 text-white p-6 flex flex-col gap-6">
           <div className="text-xl font-bold tracking-wider">⚡ Core Dash</div>
           <nav className="flex flex-col gap-3">
-            <Link href="/products" className="hover:text-blue-400 transition-colors">📦 SSG Products</Link>
-            <Link href="/dashboard" className="hover:text-blue-400 transition-colors">📊 SSR Dashboard</Link>
-            <Link href="/posts" className="hover:text-blue-400 transition-colors">📰 ISR Posts Feed</Link>
-            <Link href="/todos" className="hover:text-blue-400 transition-colors">✅ CSR Todo Filter</Link>
+            <Link href="/products" className="hover:text-blue-400 transition-colors">SSG Products</Link>
+            <Link href="/dashboard" className="hover:text-blue-400 transition-colors">SSR Dashboard</Link>
+            <Link href="/posts" className="hover:text-blue-400 transition-colors">ISR Posts Feed</Link>
+            <Link href="/todos" className="hover:text-blue-400 transition-colors">CSR Todo Filter</Link>
           </nav>
         </aside>
 
