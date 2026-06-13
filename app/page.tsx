@@ -7,10 +7,6 @@ export default function HomePage() {
       {/* Hero Header Banner */}
       <header className="hub-header">
         <h1>Next.js Core Architecture Prototype</h1>
-        <p>
-          An engineering showcase demonstrating routing efficiency, optimized parallel data fetching, 
-          and the four primary rendering paradigms of the Next.js App Router framework.
-        </p>
       </header>
 
       {/* Grid Menu Matrix */}
@@ -84,17 +80,6 @@ export default function HomePage() {
           </Link>
         </div>
 
-      </div>
-
-      {/* Tech Specifications Footer Strip */}
-      <div className="tech-footer">
-        <div>
-          <h3>Ready to review the documentation?</h3>
-          <p>The architectural breakdown, folder trees, and performance validations are fully detailed inside the root markdown file.</p>
-        </div>
-        <div className="tech-badge">
-          📄 REFLECTION.md ready
-        </div>
       </div>
     </div>
   );

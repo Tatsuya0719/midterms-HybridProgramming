@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className="flex min-h-screen bg-gray-50 text-gray-900">
         {/* Persistent Sidebar Navigation */}
         <aside className="w-64 bg-slate-900 text-white p-6 flex flex-col gap-6">
-          <div className="text-xl font-bold tracking-wider">⚡ Core Dash</div>
+          <div className="text-xl font-bold tracking-wider">Core Dash</div>
           <nav className="flex flex-col gap-3">
             <Link href="/products" className="hover:text-blue-400 transition-colors">SSG Products</Link>
             <Link href="/dashboard" className="hover:text-blue-400 transition-colors">SSR Dashboard</Link>
